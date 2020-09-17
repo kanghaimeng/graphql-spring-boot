@@ -35,6 +35,7 @@ subprojects {
     apply plugin: "com.jfrog.bintray"
     apply plugin: "io.spring.dependency-management"
     apply plugin: 'com.jfrog.artifactory'
+    apply plugin: 'maven'
 
     group  "$PROJECT_GROUP"
 
